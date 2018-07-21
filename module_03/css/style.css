@@ -22,6 +22,7 @@ nav {
     list-style: none;
     font-size: 14px;
     text-transform: uppercase;
+    text-decoration: none $
 }
 
 nav > ul > .list-item {
