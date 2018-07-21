@@ -14,20 +14,22 @@ header {
     height: 192px;
 }
 
-nav {
+.navigation {
     padding-top: 88px;
     padding-left: 165px;
     margin: auto;
-    color: rgb(98, 98, 98);
-    list-style: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none $
 }
 
-nav > ul > .list-item {
+li {
     display: inline;
-    margin-right: 100px
+    margin-right: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list {
+    font-size: 14px;
+    color: rgb(98, 98, 98);
 }
 
 .box_top,.box_middle {
