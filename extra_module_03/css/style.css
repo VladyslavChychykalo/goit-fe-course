@@ -50,8 +50,13 @@ div {
 
 .article1 {
     float: left;
+    width: 470px
 }
 
+.image {
+    width: 360px;
+    height: 280px;
+}
 .title {
     font-size: 26px;
     font-weight: 500;
@@ -70,6 +75,7 @@ div {
 article {
     max-width: 470px;
     margin: auto;
+    width: 470;
 }
 
 .task4 {
