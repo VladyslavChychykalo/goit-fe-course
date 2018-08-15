@@ -4,12 +4,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
-    width: 1600px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .page-header {
-    width: 1110px;
+    max-width: 1110px;
     margin: auto;
     margin-top: 38px;
     height: 21px;
@@ -176,13 +184,11 @@ main {
 }
 
 .clothes-block {
-    margin-top: 80px;
-    margin-left: 245px;
-    margin-right: 245px;
+    max-width: 1110px;
+    margin: auto;
+    margin-top: 80px
 }
-.product-list li:nth-child(4n) {
-    margin-right: 0;
-}
+
 .product-list .product-list-item {
     width: 255px;
     height: 322px;
@@ -191,6 +197,10 @@ main {
     float: left;
     margin-right: 30px;
     margin-bottom: 98px;
+}
+
+.product-list .product-list-item:nth-child(n+4) {
+    margin-right: 0;
 }
 
 .product-title {
