@@ -88,7 +88,7 @@ main {
 .tours {
     display: inline-block;
     position: absolute;
-    max-width: 1110px;
+    width: 1110px;
     height: 110px;
     top: 50%;
     left: 50%;
