@@ -85,6 +85,13 @@ main {
 .tours-block {
     position: relative;
 }
+
+.tours-block {
+    background-image: url(../img/main_image.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .tours {
     display: inline-block;
     position: absolute;
