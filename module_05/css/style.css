@@ -90,8 +90,9 @@ main {
     position: absolute;
     width: 1110px;
     height: 110px;
-    top: 230px;
-    left: 245px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .first-part-title {
