@@ -1,0 +1,82 @@
+body {
+    counter-reset: lists;
+}
+
+.navigation {
+    float: right;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navigation-item {
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.list:hover {
+    color: aqua;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.menu1 {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-item1 {
+    color: #0E1116;
+    max-width: 100px;
+}
+
+.menu-item1:nth-child(3n+1) {
+    background-color: #88292F;
+}
+
+.menu-item1:nth-child(3n+2) {
+    background-color: #5DB7DE;
+}
+
+.menu-item1:nth-child(3n+3) {
+    background-color: #0D5D56
+}
+
+.menu2 {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-item::before {
+    content: "\2192";
+}
+
+.menu-item2 {
+    counter-increment: lists;
+}
+
+.menu-item2::before {
+    content: counter(lists, upper-roman);
+    margin-right: 15px;
+}
+
+
