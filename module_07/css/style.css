@@ -234,7 +234,7 @@ input {
     border-style: none;
     text-transform: uppercase;
     padding-left: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -292,7 +292,7 @@ button {
     border-radius: 3px;
     text-transform: uppercase;
     cursor: pointer;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
