@@ -1,9 +1,10 @@
 @media (min-width: 768px) {
     .container {
-        max-width: 768px;
-        /*
-        outline: 1px red solid;
-        */
+        max-width: 748px;
+    }
+
+    .background {
+        min-height: 700px;
     }
 
     header {
@@ -11,43 +12,33 @@
         justify-content: space-between;
         padding: 38px 50px 0 50px;
     }
-    
-    .background {
-        height: 700px;
-        background-image: url(../img/background-picture-2.png)
+
+    h1 {
+        margin-top: 8px
     }
 
-    .title {
-        /*
-        outline: 1px red solid;
-        */
+    .cover .title {
         width: 506px;
         font-size: 52px;
         line-height: normal;
-        margin-bottom: 32px;
-        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-top: 120px;
     }
 
-    .pre-title {
-        font-size: 24px;
-        margin-bottom: 36px;
-        width: 768px;
-        color: #ffffff;
+    .cover .subtitle {
+        margin-bottom: 35px
     }
 
-    .button_2 {
-        padding: 14px 22px 12px 22px;
+    .cover .button {
+        padding: 10px 22px 10px 22px;
     }
 
-    h3 {
-        width: 768px;
-        margin-bottom: 32px;
+    .partners_profile .title {
+        width: 748px;
+        margin-bottom: 35px;
     }
 
     .profile-menu {
-        /*
-        outline: 1px red solid;
-        */
         width: 490px;
         display: flex;
         justify-content: space-between;
@@ -79,34 +70,24 @@
         margin-bottom: 0;
     }
 
-    .button_3 {
+    .partners-button {
         margin-top: 40px;
         margin-bottom: 40px;
-        padding: 13px 28px 13px 28px;
+        padding: 10px 28px 10px 28px;
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 940px) {
     .container {
         max-width: 1440px;
-        /*
-        outline: 1px red solid;
-        */
     }
 
     header {
-        padding: 38px 250px 0 250px;
-    }
-
-    .background {
-        height: 700px;
-        background-image: url(../img/background-picture-3.png)
+        margin: auto;
+        width: 940px;
     }
 
     .profile-menu {
-        /*
-        outline: 1px red solid;
-        */
         width: 940px;
         display: flex;
         flex-direction: row;
@@ -114,5 +95,9 @@
 
     .list-item {
         margin-bottom: 0
+    }
+
+    h3 {
+        width: 1440px
     }
 }
