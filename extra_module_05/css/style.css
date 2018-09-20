@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    display: block;
+    widows: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(50deg, rgba(150, 200, 176, 0.3), rgba(124, 56, 98, 0.3 )), url(../img/main_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.relative_box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #424242;
+    margin: auto;
+}
+
+.absolute_box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    top: 0;
+    left: 0;
+}
+
+.absolute_box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.absolute_box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    top: 0;
+    right: 0;
+}
+
+.absolute_box4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%)
+}
+
+.absolute_box5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.absolute_box6 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%)
+}
+
+.absolute_box7 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+}
+
+.absolute_box8 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.absolute_box9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    bottom: 0;
+    right: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: linear-gradient(50deg, rgba(150, 200, 176, 0.3), rgba(124, 56, 98, 0.3 )), url(../img/placeimg_640_480_nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+
+.menu-item > a,
+.submenu-item > a {
+  display: inline-block;
+  padding: 15px 50px; 
+  color: #424242;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.menu-item > a:hover,
+.submenu-item > a:hover{
+  background: #E91E63;
+  color: #ffffff;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;/*
+    background-color: blue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3);
+    */
+}
+
+.menu-item:hover > .submenu {
+    display: block;
+}
+
+
+/*
+.submenu-item {
+    white-space: nowrap;
+}
+*/
