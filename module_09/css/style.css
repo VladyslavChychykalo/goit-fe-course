@@ -3,7 +3,7 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/background-picture.png);
     background-position: center;
     background-size: cover;
-    min-height: 540px;
+    height: 540px;
 }
 
 .navigation .button {
@@ -29,10 +29,12 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-top: 115px;
+    margin-bottom: 0;
 }
 
 .holiday-partner-btn .button {
-    padding: 10px 48px;
+    padding: 12px 46px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -41,15 +43,11 @@
     border: 2px solid transparent;
     cursor: pointer;
     border-radius: 50px;
+    background-color: #ff4e50;
 }
 
 button:focus {
     outline: none;
-}
-
-.page-title {
-    margin-top: 115px;
-    margin-bottom: 0;
 }
 
 .cover .title {
@@ -58,8 +56,8 @@ button:focus {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 13px;
     padding: 0;
     line-height: normal
 }
@@ -73,28 +71,20 @@ button:focus {
     padding: 0 50px;
 }
 
-.cover .button {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 20px;
-    background-color: #ff4e50;
-}
-
 .team .title {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    margin-top: 65px;
+    line-height: normal;
+    margin-bottom: 15px
 }
 
 .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    margin-bottom: 30px
 }
 
 .profile-image-1 {
@@ -201,7 +191,6 @@ button:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
     width: 214px;
 }
 
@@ -209,7 +198,7 @@ button:focus {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .description {
@@ -217,12 +206,13 @@ button:focus {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    margin-top: 22px;
+    margin-top: 13px;
     color: #666666;
+    line-height: normal;
 }
 
 .partners-btn .button {
-    padding: 10px 48px;
+    padding: 10px 70px;
     color: #ff4e50;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
