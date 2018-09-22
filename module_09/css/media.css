@@ -86,4 +86,14 @@
     .cards {
         margin-bottom: 0;
     }
+
+    .page-title {
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: flex-end
+    }
 }
