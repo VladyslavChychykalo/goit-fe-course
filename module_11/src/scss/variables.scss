@@ -1,0 +1,30 @@
+$base-font: Roboto, Ariel, sans-serif;
+$title-font: Montserrat, Ariel, sans-serif;
+$special-font: 'Kaushan Script', Ariel, cursive;
+
+%service-team-titles {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-family: $title-font;
+  color: #333333;
+}
+
+%service-team-pretitles {
+  text-align: center;
+  font-family: $special-font;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+%service-team-after-titles {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #e59090;
+  content: "";
+  margin: auto;
+  margin-top: 35px;
+}
